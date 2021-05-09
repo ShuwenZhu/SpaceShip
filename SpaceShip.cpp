@@ -40,6 +40,7 @@ int main()
         cin.clear(); // reset failbit
         cin.ignore(1000, '\n'); //skip bad input
         // next, request user reinput
+        cout << ">>";
         cin >> diff;
     }
     Game g1;
